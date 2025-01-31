@@ -18,7 +18,7 @@ const About = () => {
         {/* Main Content */}
         <div className="profile-content">
           <div className="profile-image">
-            <img src=".\src\images\20240502_203935.jpg" alt="Shanice Perriatt" /> 
+            <img src="" alt="Sagar Joshi" /> 
           </div>
 
           <div className="profile-text">
