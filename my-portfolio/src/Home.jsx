@@ -3,6 +3,8 @@ import "./Home.css";
 import "./About.css";
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import 'font-awesome/css/font-awesome.min.css';
+import aboutImage from './images/20240502_203935.jpg';
+import downloadImage from './images/download.png';
 
 const Portfolio = () => {
   const navigate = useNavigate();
@@ -63,7 +65,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="hero-image">
-            <img src=".\src\images\download.png" alt="Sohag Hosen" />
+          <img src={downloadImage} alt="Sohag Hosen" />
           </div>
         </section> <br /> <br />
 
@@ -85,12 +87,21 @@ const Portfolio = () => {
 
             {/* Main Content */}
             <div className="profile-content" align="center">
-              <div className="profile-image">
-                <img src=".\src\images\20240502_203935.jpg" alt="Shanice Perriatt" />
-              </div>
+              <div className="profile-image" style={{ width: '150px', height: '150px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                          <img
+                            src={aboutImage}
+                            alt="Sagar Joshi"
+                            style={{
+                              width: '100%',
+                              height: '100%',
+                              borderRadius: '50%', // Makes the image circular
+                              border: '5px solid #2d7b54',
+                            }}
+                          />
+                        </div>
 
               <div className="profile-text">
-                <h1>Hey. What's Up? Hello! 👋</h1>
+                <h1 id="color">Hey. What's Up? Hello! 👋</h1>
                 <p>
                   I'm <strong>Sagar Joshi</strong> — a <strong>web developer</strong> and
                   <strong> content creator</strong> who blends the best of design and writing into

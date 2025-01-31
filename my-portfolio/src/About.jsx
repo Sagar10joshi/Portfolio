@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import aboutImage from './images/20240502_203935.jpg';
 
 const About = () => {
   return (
@@ -17,8 +18,18 @@ const About = () => {
 
         {/* Main Content */}
         <div className="profile-content">
-          <div className="profile-image">
-            <img src="" alt="Sagar Joshi" /> 
+
+          <div className="profile-image" style={{ width: '150px', height: '150px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img
+              src={aboutImage}
+              alt="Sagar Joshi"
+              style={{
+                width: '100%',
+                height: '100%',
+                borderRadius: '50%', // Makes the image circular
+                border: '5px solid #2d7b54',
+              }}
+            />
           </div>
 
           <div className="profile-text">

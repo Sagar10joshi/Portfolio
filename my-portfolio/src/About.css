@@ -58,18 +58,18 @@
   }
   
   /* Profile Image */
-  .profile-image {
+  /* .profile-image {
     flex: 1;
     display: flex;
     justify-content: center;
-  }
+  } */
   
   .profile-image img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid #2d7b54;
-    background-image: url('/images/20240502_203935.jpg');
+    /* background-image: url('/images/20240502_203935.jpg'); */
   }
   
   /* Profile Text */
