@@ -1,0 +1,115 @@
+ /* body {
+  margin: 0;
+  padding: 0;
+  background: #0d1b2a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.portfolio {
+  text-align: center;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #0d1b2a;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar ul li a.active, .navbar ul li a:hover {
+  color: #00aaff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  padding: 50px;
+}
+
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.hero-content h3 {
+  color: #00aaff;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.hire, .talk {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hire {
+  background: #00aaff;
+  color: white;
+}
+
+.talk {
+  background: transparent;
+  border: 1px solid #00aaff;
+  color: #00aaff;
+}
+
+.hire:hover, .talk:hover {
+  opacity: 0.8;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00aaff;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 10px;
+} 
+
+
+ */

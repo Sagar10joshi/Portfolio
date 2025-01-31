@@ -1,0 +1,127 @@
+
+.bigcon{
+  background-color: #535254c6;
+}
+
+h1{
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 2.8rem;
+  font-weight: 600;
+  /* color: whitesmoke; */
+}
+
+footer{
+  height: 12.1vh;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: black;
+
+}
+
+  .unique-contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 9vh;
+    margin-left: 7vw;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .unique-contact-left {
+    flex: 1;
+    max-width: 45%;
+  }
+  
+  .unique-contact-title {
+    color: #ff9900;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .unique-contact-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .unique-contact-description {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .unique-social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icon i {
+    font-size: 20px;
+    color: #6a0dad;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .social-icon i:hover {
+    color: #4e0c9e;
+  }
+  
+  .unique-contact-right {
+    flex: 1;
+    max-width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .unique-contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .unique-form-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .unique-input,
+  .unique-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background: #f4f4f4;
+  }
+  
+  .unique-textarea {
+    height: 120px;
+  }
+  
+  .unique-submit-button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .unique-submit-button:hover {
+    background-color: #5a0dac;
+  }
+   
+
+
