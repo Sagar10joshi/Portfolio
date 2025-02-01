@@ -71,6 +71,10 @@ body {
     background-color: #f0f2f5; 
     margin: 0;
     padding: 0;
+    background: none;
+  }
+  .logo{
+    font-size: 2rem;
   }
   
   /* Main container */
@@ -83,7 +87,7 @@ body {
   
   /* Header Styling */
   .header {
-    color: #2c3e50;
+    color: #e9ecf0;
     font-size: 2.5rem;
     margin-bottom: 40px;
     text-align: center;

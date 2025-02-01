@@ -1,4 +1,4 @@
-/* Container */
+/* 
 
 .body{
   margin: 0;
@@ -18,7 +18,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   }
   
-  /* Navbar */
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -48,6 +48,129 @@
   
   .nav-links li a:hover {
     color: #2d7b54;
+  }
+  
+ 
+  .profile-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #2d7b54;
+  }
+  
+ 
+  .profile-text {
+    flex: 2;
+    padding-left: 30px;
+  }
+  
+  .profile-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .profile-text strong {
+    font-weight: bold;
+    color: black;
+  }
+  
+ 
+  .links {
+    margin-top: 20px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    transition: all 0.3s;
+  }
+  
+  .resume-link:hover {
+    background: black;
+    color: white;
+  }
+  
+  .behance-link:hover {
+    background: #2d7b54;
+    color: white;
+    border-color: #2d7b54;
+  }
+   */
+
+
+   /* Container */
+
+.body{
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.profile-container {
+    background: white;
+    width: 800px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar */
+  .navbar2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f5f5f5;
+  }
+  
+  .nav-links {
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #00aaff;
   }
   
   /* Profile Content */
